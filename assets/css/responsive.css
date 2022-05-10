@@ -1,0 +1,244 @@
+
+/* ---------------------------------------------------------------------------- *//* ----------------- */
+/*                                                                              *//* ----------------- */
+/* ------------ *//*                                                            *//* ----------------- */
+/* @MEDIA RULES *//* RESPONSIVENESS                                             *//* ----------------- */
+/* ------------ *//*                                                            *//* ----------------- */
+/*                                                                              *//* ----------------- */
+/* ---------------------------------------------------------------------------- *//* ----------------- */
+
+
+/* ----------------- *//* ----------------- *//* ----------------- */
+/* BREAKPOINT 1250PX *//* ----------------- *//* ----------------- */
+/* ----------------- *//* ----------------- *//* ----------------- */
+
+@media only screen and (max-width: 1250px) {
+    
+    .header .container {
+        text-align: left;
+    }
+
+    .header .nav {
+        display: none;
+    }
+
+    .header .logo {
+        margin-left: 1rem;
+    }
+
+    .menu-button {
+        display: block;
+    }
+
+    .post-usp {
+        height: fit-content; width: 100%; max-width: 600px; 
+        margin: 1rem 0;
+    }
+
+    .footer .post:nth-of-type(1) {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+
+    .footer .post {
+        width: 225px;
+        margin: 3rem 1rem;
+    }
+
+}
+
+
+/* ----------------- *//* ----------------- *//* ----------------- */
+/* BREAKPOINT 1150PX *//* ----------------- *//* ----------------- */
+/* ----------------- *//* ----------------- *//* ----------------- */
+
+@media only screen and (max-width: 1150px) {
+    
+    .banner .post.tiny {
+        padding: 0.5rem; margin: 0.5rem 0; width: fit-content; min-width: 280px;
+    }
+
+    .formbox {
+        min-width: 280px; max-width: 500px;
+    }
+
+    .formbox .input-field:nth-of-type(1), .formbox .submit {
+        width: 100%; margin-left: 0;
+    }
+
+    .formbox .input-field:nth-of-type(2), .formbox .input-field:nth-of-type(3) {
+        width: 49.25%; margin-right: 0;
+    }
+
+    .banner .layover-element-1 {
+        left: 0; bottom: -10%; 
+        height: 35%; width: 100%;
+        transform: skewY(2.5deg);
+    } 
+
+    #output-rendement, #output-verduurzaming, #output-opwekking {
+        margin: 2.5rem 1rem;
+    }
+
+    .tc-bp-1150 {
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+
+}
+
+
+/* ---------------- *//* ----------------- *//* ----------------- */
+/* BREAKPOINT 850PX *//* ----------------- *//* ----------------- */
+/* ---------------- *//* ----------------- *//* ----------------- */
+
+@media only screen and (max-width: 850px) {
+
+    .article.text-left {
+        text-align: center;
+    }
+
+}
+
+
+/* ---------------- *//* ----------------- *//* ----------------- */
+/* BREAKPOINT 600PX *//* ----------------- *//* ----------------- */
+/* ---------------- *//* ----------------- *//* ----------------- */
+
+@media only screen and (max-width: 600px) {
+
+    .cwt-animation:before {
+        left: -30%;
+    }
+
+    .form-page .form {
+        width: 100%; max-width: none; min-height: 100vh;
+        border-radius: 0;
+    }
+
+    .post.wide, .post.medium {
+        margin-left: 0; margin-right: 0;
+    }
+
+    .menu .menu-footer {
+        display: none;
+    }
+
+}
+
+
+/* ---------------- *//* ----------------- *//* ----------------- */
+/* BREAKPOINT 500PX *//* ----------------- *//* ----------------- */
+/* ---------------- *//* ----------------- *//* ----------------- */
+
+@media only screen and (max-width: 500px) {
+
+    .header {
+        height: 80px;
+    }
+
+    .header .container {
+        padding: 0.25rem 1rem;
+    }
+
+    .header .logo {
+        width: 100px;
+    }
+
+    .menu-button {
+        top: 1rem;
+    }
+
+    .banner {
+        padding-top: 100px;
+    }
+
+    .cwt-animation {
+        width: 230px; height: 230px;
+        padding: 4.75rem 1rem;
+    }
+
+    .cwt-animation .baloo-thick-big {
+        font-size: 3.5rem;
+    }
+
+    .cwt-animation:before {
+        display: none;
+    }
+
+    .fredoka-thick-medium, .fredoka-regular-medium, .baloo-thick-medium, .baloo-regular-medium {
+        font-size: 2.25rem;
+        line-height: 2.25rem;
+    }
+
+    .baloo-regular-small, .baloo-thick-small {
+        font-size: 1.75rem;
+        line-height: 1.75rem;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    .formbox {
+        margin: 1rem -1rem;
+        border-radius: 0;
+    }
+
+    .footer .post, .post.small {
+        margin: 3rem 0;
+    }
+
+    .circled-small {
+        padding: 1rem;
+    }
+
+}
+
+
+/* ---------------- *//* ----------------- *//* ----------------- */
+/* BREAKPOINT 550PX *//* ----------------- *//* ----------------- */
+/* ---------------- *//* ----------------- *//* ----------------- */
+
+@media only screen and (max-width: 550px) {
+    
+    .form-page .form.form-end .input-field:nth-of-type(1), .form-page .form.form-end .input-field:nth-of-type(2), .form-page .form.form-end .input-field:nth-of-type(3), .form-page .form.form-end .input-field:nth-of-type(4) {
+        max-width: 470px;
+    }
+    
+    .form-page .form.form-begin .input-field:nth-of-type(1) {
+        max-width: 220px;
+    }
+    
+    .form-page .form.form-begin .input-field:nth-of-type(2), .form-page .form.form-begin .input-field:nth-of-type(3) {
+        max-width: 100px;
+    }
+
+}
+
+
+/* ---------------- *//* ----------------- *//* ----------------- */
+/* BREAKPOINT 400PX *//* ----------------- *//* ----------------- */
+/* ---------------- *//* ----------------- *//* ----------------- */
+
+@media only screen and (max-width: 400px) {
+
+    .formbox .input-field:nth-of-type(2), .formbox .input-field:nth-of-type(3) {
+        width: 49%; margin-right: 0;
+    }
+
+    .cwt-animation {
+        width: 200px; height: 200px;
+        padding: 3.75rem 1rem;
+    }
+
+    .cwt-animation .baloo-thick-big {
+        font-size: 3rem;
+    }
+
+    #output-rendement, #output-verduurzaming, #output-opwekking {
+        margin: 2.5rem 0;
+    }
+
+}

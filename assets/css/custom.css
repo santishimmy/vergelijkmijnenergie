@@ -1,0 +1,266 @@
+/* ----------------------------------------------- */ /* ---------------------------------------------- */
+/*                                                                                                      */
+/* ---------- */ /* ---------------------------------------------- */ /*                                */
+/* CALCULATOR */ /* ---------------------------------------------- */ /*                                */
+/* ---------- */ /* ---------------------------------------------- */ /*                                */
+/*                                                                                                      */
+/* ---------------------------------------------- */ /* ----------------------------------------------- */
+
+
+#output .post.small:after, #output .post.small:before  {
+    content: '';
+    position: absolute;
+    height: 110px; width: 110px;
+    border-radius: 50%;
+    background-color: var(--quartiary-color);
+    opacity: 0.5;
+    z-index: -1;
+}
+
+#output .post.small:after {
+    bottom: 0; right: 25%;
+}
+
+#output .post.small:before {
+    top: 10%; right: 10%;
+}
+
+.calculator {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    margin: 50px auto;
+}
+
+.calculator .panel-amount {
+    width: 85%;
+    max-width: 800px;
+    -webkit-appearance: none;
+}
+
+#output-panelen {
+    position: relative;
+    display: inline-block;
+    height: 125px; width: 125px;
+    padding: 1.5rem;
+    border: 5px solid var(--quartiary-color);
+    border-radius: 50%;
+    font-size: 4rem;
+    line-height: 4rem;
+}
+
+.calculator .panel-amount::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 0.5rem;
+    cursor: pointer;
+    box-shadow: none;
+    background: var(--quartiary-color);
+    opacity: 0.65;
+    border-radius: 1rem;
+}
+
+.calculator .panel-amount::-moz-range-track {
+    width: 100%;
+    height: 0.5rem;
+    cursor: pointer;
+    box-shadow: none;
+    background: var(--quartiary-color);
+    opacity: 0.65;
+    border-radius: 1rem;
+}
+
+.calculator .panel-amount::-webkit-slider-thumb {
+    box-shadow: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid var(--quartiary-color);
+    background-color: var(--white);
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: calc(-25px + 0.25rem);
+}
+
+.calculator .panel-amount::-moz-range-thumb {
+    box-shadow: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid var(--quartiary-color);
+    background-color: var(--white);
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: calc(-25px + 0.25rem);
+}
+
+
+/* ----------------------------------------------- */ /* ---------------------------------------------- */
+/*                                                                                                      */
+/* ------------------ */ /* ---------------------------------------------- */ /*                        */
+/* CHECKBOX ANIMATION */ /* ---------------------------------------------- */ /*                        */
+/* ------------------ */ /* ---------------------------------------------- */ /*                        */
+/*                                                                                                      */
+/* ---------------------------------------------- */ /* ----------------------------------------------- */
+
+
+.beautifull-checkbox + .beautifull-checkbox-label {
+  display: inline-block;
+  position: relative;
+  padding-left: 30px;
+  margin: 0; margin-left: -10px;
+  cursor: pointer;
+  text-align: left;
+
+  color: var(--black);
+  font-family: 'Baloo';
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+  font-weight: 400;
+}
+
+.beautifull-checkbox + .beautifull-checkbox-label { margin-bottom: 0; }
+
+.beautifull-checkbox + .beautifull-checkbox-label:before {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 1px solid var(--black);
+  position: absolute;
+  left: 0;
+  top: 2px;
+  opacity: .6;
+  -webkit-transition: all .12s, border-color .08s;
+  transition: all .12s, border-color .08s;
+}
+
+.beautifull-checkbox:checked + .beautifull-checkbox-label:before {
+  width: 7.5px;
+  top: -3px;
+  left: 5px;
+  border-radius: 0;
+  opacity: 1;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+/* ----------------------------------------------- */ /* ---------------------------------------------- */
+/*                                                                                                      */
+/* -------------------------- */ /* ---------------------------------------------- */ /*                */
+/* CIRCLE WITH TEXT ANIMATION */ /* ---------------------------------------------- */ /*                */
+/* -------------------------- */ /* ---------------------------------------------- */ /*                */
+/*                                                                                                      */
+/* ---------------------------------------------- */ /* ----------------------------------------------- */
+
+
+.cwt-animation {
+    position: relative;
+    display: inline-block;
+    height: 290px; width: 290px;
+    padding: 100px 0; margin: 1rem;
+    border: 7px solid var(--quartiary-color);
+    border-radius: 50%;
+}
+
+.cwt-animation:before {
+    content: '';
+    position: absolute;
+    height: 100%; width: 100%;
+    top: 30%; left: 30%;
+    background-color: var(--quartiary-color);
+    opacity: 0.45;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.cwt-animation-outline-one, .cwt-animation-outline-two {
+    position: absolute;
+    border-radius: 50%;
+    border: 8px solid var(--quartiary-color);
+    border-top-color: transparent; border-left-color: transparent;
+    z-index: -1;
+}
+
+.cwt-animation-outline-one {
+    height: 120%; width: 120%;
+    top: -10%; left: -10%;
+    animation: none;
+}
+
+.cwt-animation-outline-two {
+    height: 110%; width: 110%;
+    top: -5%; left: -5%;
+    animation: none;
+    transform: rotate(-180deg);
+}
+
+@keyframes rotate-right {
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes rotate-left {
+    100% { transform: rotate(-360deg); }
+}
+
+@keyframes rotate-left-mirror {
+    0% { transform: rotate(-180deg); }
+    50% { transform: rotate(-360deg); }
+    100% { transform: rotate(-180deg); }
+}
+
+
+/* ----------------------------------------------- */ /* ---------------------------------------------- */
+/*                                                                                                      */
+/* ----------------- */ /* ---------------------------------------------- */ /*                         */
+/* LOADING ANIMATION */ /* ---------------------------------------------- */ /*                         */
+/* ----------------- */ /* ---------------------------------------------- */ /*                         */
+/*                                                                                                      */
+/* ---------------------------------------------- */ /* ----------------------------------------------- */
+
+
+.load-layover {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: var(--white);
+    z-index: 99999999;
+}
+
+.load-animation {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content; height: fit-content;
+    text-align: center;
+}
+
+.spinner {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 2rem;
+    width: 75px; height: 75px;
+}
+
+.spinner:before, .spinner:after {
+    content: '';
+    position: absolute;
+    height: 100%; width: 100%;
+    left: 0; top: 0; 
+    border-radius: 50%;
+    border: 0.3rem solid var(--secondary-color);
+    animation: 1s ripple ease-out infinite;
+    opacity: 0;
+}
+
+.spinner:after {
+    animation-delay: 0.25s;
+}
+
+@keyframes ripple {
+    0% { -webkit-transform: scale(0); transform: scale(0); opacity: 1;} 
+    100% { -webkit-transform: scale(1.5); transform: scale(1.5); opacity: 0; }
+}
+

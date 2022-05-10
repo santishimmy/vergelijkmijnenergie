@@ -1,0 +1,393 @@
+
+
+/* ----- *//* ---------------------------------------------------------------------------- */
+/* BALOO *//* ---------------------------------------------------------------------------- */
+/* ----- *//* ---------------------------------------------------------------------------- */
+
+/* THICK */
+
+.baloo-thick-huge , .baloo-thick-big, .baloo-thick-medium, .baloo-thick-small, .baloo-thick-tiny, .baloo-thick-extra-tiny {
+    font-family: 'Baloo';
+    font-weight: 900;
+}
+
+.baloo-thick-huge {
+    font-size: 5rem;
+    line-height: 5.2rem;
+}
+
+.baloo-thick-big {
+    font-size: 4rem;
+    line-height: 4.2rem;
+}
+
+.baloo-thick-medium {
+    font-size: 3rem;
+    line-height: 3.2rem;
+}
+
+.baloo-thick-small {
+    font-size: 2rem;
+    line-height: 2.15rem;
+}
+
+.baloo-thick-tiny {
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+}
+
+.baloo-thick-extra-tiny {
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+}
+
+/* REGULAR */
+
+.baloo-regular-huge , .baloo-regular-big, .baloo-regular-medium, .baloo-regular-small, .baloo-regular-tiny, .baloo-regular-extra-tiny {
+    font-family: 'Baloo';
+    font-weight: 400;
+}
+
+.baloo-regular-huge {
+    font-size: 5rem;
+    line-height: 5.2rem;
+}
+
+.baloo-regular-big {
+    font-size: 4rem;
+    line-height: 4.2rem;
+}
+
+.baloo-regular-medium {
+    font-size: 3rem;
+    line-height: 3.2rem;
+}
+
+.baloo-regular-small {
+    font-size: 2rem;
+    line-height: 2.15rem;
+}
+
+.baloo-regular-tiny {
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+}
+
+.baloo-regular-extra-tiny {
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+}
+
+
+/* --------- *//* ---------------------------------------------------------------------------- */
+/* COMFORTAA *//* ---------------------------------------------------------------------------- */
+/* --------- *//* ---------------------------------------------------------------------------- */
+
+/* THICK */
+
+.comfortaa-thick-huge , .comfortaa-thick-big, .comfortaa-thick-medium, .comfortaa-thick-small {
+    font-family: 'Comfortaa';
+    font-weight: 900;
+}
+
+.comfortaa-thick-huge {
+    font-size: 5rem;
+    line-height: 5.2rem;
+}
+
+.comfortaa-thick-big {
+    font-size: 4rem;
+    line-height: 4.2rem;
+}
+
+.comfortaa-thick-medium {
+    font-size: 3rem;
+    line-height: 3.2rem;
+}
+
+.comfortaa-thick-small {
+    font-size: 2rem;
+    line-height: 2.15rem;
+}
+
+/* REGULAR */
+
+.comfortaa-regular-huge , .comfortaa-regular-big, .comfortaa-regular-medium, .comfortaa-regular-small {
+    font-family: 'Comfortaa';
+    font-weight: 400;
+}
+
+.comfortaa-regular-huge {
+    font-size: 5rem;
+    line-height: 5.2rem;
+}
+
+.comfortaa-regular-big {
+    font-size: 4rem;
+    line-height: 4.2rem;
+}
+
+.comfortaa-regular-medium {
+    font-size: 3rem;
+    line-height: 3.2rem;
+}
+
+.comfortaa-regular-small {
+    font-size: 2rem;
+    line-height: 2.15rem;
+}
+
+
+/* ---- *//* ---------------------------------------------------------------------------- */
+/* ITIM *//* ---------------------------------------------------------------------------- */
+/* ---- *//* ---------------------------------------------------------------------------- */
+
+/* THICK */
+
+.itim-thick-huge , .itim-thick-big, .itim-thick-medium, .itim-thick-small, .itim-thick-tiny {
+    font-family: 'Itim';
+    font-weight: 900;
+}
+
+.itim-thick-huge {
+    font-size: 5rem;
+    line-height: 5.2rem;
+}
+
+.itim-thick-big {
+    font-size: 4rem;
+    line-height: 4.2rem;
+}
+
+.itim-thick-medium {
+    font-size: 3rem;
+    line-height: 3.2rem;
+}
+
+.itim-thick-small {
+    font-size: 2rem;
+    line-height: 2.15rem;
+}
+
+.itim-thick-tiny {
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+}
+
+/* REGULAR */
+
+.itim-regular-huge , .itim-regular-big, .itim-regular-medium, .itim-regular-small, .itim-regular-tiny {
+    font-family: 'Itim';
+    font-weight: 400;
+}
+
+.itim-regular-huge {
+    font-size: 5rem;
+    line-height: 5.2rem;
+}
+
+.itim-regular-big {
+    font-size: 4rem;
+    line-height: 4.2rem;
+}
+
+.itim-regular-medium {
+    font-size: 3rem;
+    line-height: 3.2rem;
+}
+
+.itim-regular-small {
+    font-size: 2rem;
+    line-height: 2.15rem;
+}
+
+.itim-regular-tiny {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+}
+
+
+/* ------- *//* ---------------------------------------------------------------------------- */
+/* FREDOKA *//* ---------------------------------------------------------------------------- */
+/* ------- *//* ---------------------------------------------------------------------------- */
+
+/* THICK */
+
+.fredoka-thick-huge , .fredoka-thick-big, .fredoka-thick-medium, .fredoka-thick-small {
+    font-family: 'Fredoka';
+    font-weight: 900;
+}
+
+.fredoka-thick-huge {
+    font-size: 5rem;
+    line-height: 5.2rem;
+}
+
+.fredoka-thick-big {
+    font-size: 4rem;
+    line-height: 4.2rem;
+}
+
+.fredoka-thick-medium {
+    font-size: 3rem;
+    line-height: 3.2rem;
+}
+
+.fredoka-thick-small {
+    font-size: 2rem;
+    line-height: 2.15rem;
+}
+
+/* REGULAR */
+
+.fredoka-regular-huge , .fredoka-regular-big, .fredoka-regular-medium, .fredoka-regular-small {
+    font-family: 'Fredoka';
+    font-weight: 400;
+}
+
+.fredoka-regular-huge {
+    font-size: 5rem;
+    line-height: 5.2rem;
+}
+
+.fredoka-regular-big {
+    font-size: 4rem;
+    line-height: 4.2rem;
+}
+
+.fredoka-regular-medium {
+    font-size: 3rem;
+    line-height: 3.2rem;
+}
+
+.fredoka-regular-small {
+    font-size: 2rem;
+    line-height: 2.15rem;
+}
+
+
+/* ----- *//* ---------------------------------------------------------------------------- */
+/* KARLA *//* ---------------------------------------------------------------------------- */
+/* ----- *//* ---------------------------------------------------------------------------- */
+
+/* THICK */
+
+.karla-thick-huge , .karla-thick-big, .karla-thick-medium, .karla-thick-small {
+    font-family: 'Karla';
+    font-weight: 900;
+}
+
+.karla-thick-huge {
+    font-size: 3rem;
+    line-height: 3.1rem;
+}
+
+.karla-thick-big {
+    font-size: 2.2rem;
+    line-height: 2.3rem;
+}
+
+.karla-thick-medium {
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+}
+
+.karla-thick-small {
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+}
+
+.karla-thick-tiny {
+    font-size: 1rem;
+    line-height: 1.1rem;
+}
+
+/* REGULAR */
+
+.karla-regular-huge , .karla-regular-big, .karla-regular-medium, .karla-regular-small {
+    font-family: 'Karla';
+    font-weight: 400;
+}
+
+.karla-regular-huge {
+    font-size: 3rem;
+    line-height: 3.1rem;
+}
+
+.karla-regular-big {
+    font-size: 2.2rem;
+    line-height: 2.3rem;
+}
+
+.karla-regular-medium {
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+}
+
+.karla-regular-small {
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+}
+
+.karla-regular-tiny {
+    font-size: 1rem;
+    line-height: 1.1rem;
+}
+
+
+/* ---------------- *//* ---------------------------------------------------------------------------- */
+/* COLOR & ALIGNING *//* ---------------------------------------------------------------------------- */
+/* ---------------- *//* ---------------------------------------------------------------------------- */
+
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.align-top {
+    vertical-align: top;
+}
+
+.align-middle {
+    vertical-align: middle;
+}
+
+.align-bottom {
+    vertical-align: bottom;
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+.secondary-color {
+    color: var(--secondary-color);
+}
+
+.tertiary-color {
+    color: var(--tertiary-color);
+}
+
+.quartiary-color {
+    color: var(--quartiary-color);
+}
+
+.white-color {
+    color: var(--white);
+}
+
+.black-color {
+    color: var(--black);
+}
+
+.text-shadow {
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.25);
+}
